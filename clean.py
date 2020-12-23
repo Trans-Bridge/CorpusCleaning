@@ -4,7 +4,7 @@
 import pandas as pd
 from normalize import NormalizePipline
 
-data = pd.read_excel("excel_data.xlsx")
+data = pd.read_excel("assets/excel_data.xlsx")
 
 pipline = NormalizePipline(data,
                            src_colomn="原文",

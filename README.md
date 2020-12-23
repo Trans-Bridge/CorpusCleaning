@@ -28,7 +28,7 @@ import pandas as pd
 from normalize import NormalizePipline
 
 # 此处获取数据也可从数据库或其他渠道加载，这里以从excel文件中加载为例
-data = pd.read_excel("excel_data.xlsx")
+data = pd.read_excel("assets/excel_data.xlsx")
 
 pipline = NormalizePipline(data,
                            src_colomn="原文",
